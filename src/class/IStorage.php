@@ -42,6 +42,8 @@ interface IStorage
      * @param string $key
      */
     public function remove($key);
+
+    public function clear();
 }
 
 /*
